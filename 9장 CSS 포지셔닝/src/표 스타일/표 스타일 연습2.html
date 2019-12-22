@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>표 스타일 연습 예제1</title>
+</head>
+    <style>
+        .table{
+            border-collapse:collapse;
+            width:500px;
+            table-layout:fixed;
+            margin:300px;
+            empty-cells:show;
+        }
+
+        td{
+            border:1px solid black;
+            width:100px;
+            height:auto;
+            padding:6px;
+            text-align:center;
+        }
+        .table1{
+            border-collapse:collapse;
+            width:300px;
+            table-layout:fixed;
+            word-break:break-all;
+            height:auto;
+        }
+
+        .table1 td{
+            width:150px;
+            border:1px solid black;
+            padding: 5px;
+            text-align:center;
+        }
+    </style>
+<body>
+    <table class="table">
+        <caption>프로축구 경기 일정 </caption>
+        <tr>
+           <td>울산</td>
+           <td>울산 vs 전주 </td>
+            <td> TV중계 </td>
+        </tr>
+        <tr>
+            <td>수원</td>
+            <td>부산 vs 인천 </td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>서울</td>
+            <td>부산 vs 서울 </td>
+            <td></td>
+        </tr>
+    </table>
+<hr>
+<h1> table Layout  </h1>
+    <table border="1" class="table1">
+        <td>이봐 김두한 2달라야 이건 말도 안되는 인상이야</td>
+        <td>abcdefghijklmnopqrstuvwxyz</td>
+    </table>
+</body>
+</html>
