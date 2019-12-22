@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>그라데이션 효과6(색상 중지점)</title>
+</head>
+<style>
+        div{
+            width: 550px;
+            height: 500px;
+        }
+
+        .grad{
+            background: skyblue;
+            background: -webkit-radial-gradient(red, yellow, skyblue);
+            background: -moz-radial-gradient(red, yellow, skyblue);
+            background: -o-radial-gradient(red, yellow, skyblue);
+            background: radial-gradient(red, yellow, skyblue);
+         }
+
+        .grad2{
+            background: cyan;
+            background: -webkit-radial-gradient(red, yellow 10%, skyblue);
+            background: -moz-radial-gradient(red, yellow 10%, skyblue);
+            background: -o-radial-gradient(red, yellow 10%, skyblue);
+            background: radial-gradient(red, yellow 10%, skyblue);
+         }
+    </style>
+<body>
+    <div class="grad"></div>
+    <div class="grad2"></div>
+</body>
+</html>

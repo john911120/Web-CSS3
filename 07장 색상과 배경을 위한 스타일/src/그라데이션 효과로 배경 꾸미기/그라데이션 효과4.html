@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>그라데이션 효과4(원형 그러데이션)</title>
+</head>
+<style>
+        div{
+            width: 550px;
+            height: 500px;
+        }
+        .grad{
+            background: red;
+            background: -webkit-linear-gradient(white, yellow, red);
+            background: -moz-linear-gradient(white, yellow, red);
+            background: -o-linear-gradient(white, yellow, red);
+            background: linear-gradient(white, yellow, red);
+         }
+          .grad2{
+            background: red;
+            background: -webkit-radial-gradient(circle, white, yellow, red);
+            background: -moz-radial-gradient(circle, white, yellow, red);
+            background: -o-radial-gradient(circle, white, yellow, red);
+            background: radial-gradient(circle, white, yellow, red);
+         }
+    </style>
+<body>
+    <div class="grad"></div>
+    <div class="grad2"></div>
+</body>
+</html>
