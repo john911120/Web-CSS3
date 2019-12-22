@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>변형 속성1</title>
+    <style>
+        .image { transform : rotateZ(10deg);}
+        .ltop .image { transform-origin: left top;}
+        .rtop .image { transform-origin: right top;}
+        .lbottom .image { transform-origin : left bottom;}
+        .rbottom .image { transform-origin : right bottom;}
+    </style>
+</head>
+<body>
+    <div class="origin">
+        <div class="ltop"><img src="image/image3.png" class="image"></div>
+    </div>
+    <div class="origin">
+        <div class="rtop"><img src="image/image4.png" class="image"></div>
+    </div>
+    <div class="origin">
+        <div class="lbottom"><img src="image/image5.jpg" class="image"></div>
+    </div>
+    <div class="origin">
+        <div class="rbottom"><img src="image/image6.jpg" class="image"></div>
+    </div>
+</body>
+</html>

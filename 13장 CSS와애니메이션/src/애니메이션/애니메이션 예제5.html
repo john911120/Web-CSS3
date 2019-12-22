@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>애니메이션 예제 5</title>
+    <style>
+        div{
+            width: 100px;
+            height: 100px;
+            border: 1px solid darkgreen;
+            background: #b6ff00;
+            animation: ani 3s alternate infinite ease-in;
+        }
+        .box {
+            margin: 60px;
+            width: 60px;
+            height: 60px;
+            animation: rotate 1.5s infinite background 1.5s infinite alternate;
+        }
+
+    @keyframes ani {
+            from{ width: 50px; }
+            to { height: 300px; }
+    }
+    </style>
+</head>
+<body>
+    <div class="box"></div>
+</body>
+</html>
