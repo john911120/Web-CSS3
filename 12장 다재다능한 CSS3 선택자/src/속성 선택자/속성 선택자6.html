@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>속성 선택자6</title>
+    <style>
+         ul {
+		 list-style:none;
+   }
+	 li {
+		 display:inline;
+		 float:left;
+		 margin:10px;
+	 }
+		li a {
+			padding: 5px 20px;
+			font-size: 15px;
+			color: blue;
+			text-decoration: none;
+		}
+
+        a[href $= "hwp"] {
+            background:url(image/hwp_icon.gif) no-repeat center right;
+            padding-right : 25px;
+        }
+
+         a[href $= "xls"] {
+            background:url(image/excel_icon.gif) no-repeat center right;
+            padding-right : 25px;
+        }
+
+    </style>
+</head>
+<body>
+    <h3> 회사 소개 파일 다운 받기 </h3>
+    <ul>
+        <li><a href="intro.hwp">한글 파일</a></li>
+        <li><a href="intro.xls">엑셀 파일</a></li>
+    </ul>
+</body>
+</html>
