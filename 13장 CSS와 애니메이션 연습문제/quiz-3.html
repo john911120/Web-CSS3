@@ -1,0 +1,28 @@
+﻿<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>CSS3 트랜스폼과 트랜지션</title>
+	<style>	
+	.photo {	
+        margin-top:50px;	
+	    margin-left:100px;
+	}
+	.photo:hover{
+	    -webkit-transform: scale(1.5);
+	    -webkit-transform-origin: left top;
+	    -webkit-box-shadow: 5px 5px 3px black;
+	    -webkit-transition: all 1s;
+
+	    transform-origin: left top;
+	    transform: scale(1.5);
+	    box-shadow: 5px 5px 3px black;
+	    transition: all 1s;
+
+	}
+	</style>
+</head>
+<body>
+	<img src="images/lamp.jpg" width="250" height="100" class="photo">
+</body>
+</html>
