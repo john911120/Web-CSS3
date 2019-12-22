@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>테두리 스타일 지정연습3</title>
+</head>
+<style>
+    div{
+    width: 200px;
+    height: 100px;
+    display:inline-black;
+    margin: 15px;
+    border: 2px solid;
+    border-radius:20px;
+    }
+
+    .round{
+        border-top-left-radius: 100px 50px;
+        box-shadow:2px -2px 5px 0px black;
+    }
+    .round2{
+        border-bottom-right-radius: 50% 30%;
+        box-shadow:5px 5px 15px 5px gray;
+    }
+
+    .round3{
+        border-top-right-radius: 50px;
+    }
+    </style>
+<body>
+    <div class="round"></div>
+    <div class="round2"></div>
+    <div class="round3"></div>
+</body>
+</html>
